@@ -1,6 +1,6 @@
     import React from "react";
     import {BrowserRouter as Router, Link} from "react-router-dom";
-    import{Navbar,Nav} from "react-bootstrap";
+    import{Navbar,Nav, ButtonGroup} from "react-bootstrap";
     import "../Navbar.css";
 
 
@@ -10,8 +10,8 @@
         // const changeNavBackground=()=>{
         //     setNavBackground("bg-dark");
         // }
+
         return (
-        <Router>
         <Navbar className="nav-bg" expand="lg">
         <div className="container">
         <div>
@@ -33,13 +33,12 @@
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
         <Nav.Link href="#home"><span className="navbar-txt navbar-txt-bold">Home</span></Nav.Link>
-        <Nav.Link href="#features"><span className="navbar-txt">Features</span></Nav.Link>
-        <Nav.Link href="#pricing"><span className="navbar-txt">Features</span></Nav.Link>
+        <Nav.Link href="#about"><span className="navbar-txt">About</span></Nav.Link>
+        <Nav.Link href="#skills"><span className="navbar-txt">Skills</span></Nav.Link>
         </Nav>
             </Navbar.Collapse>
         </div>
         </Navbar>
-        </Router>
             );
     };
 

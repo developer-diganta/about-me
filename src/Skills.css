@@ -1,0 +1,76 @@
+.about-head{
+    text-align:center;
+    padding:10px;
+    font-size: 3rem;
+    color:#1F2833;
+}
+
+.abt-txt{
+    font-family: 'Cairo', sans-serif;
+    text-align:justify;
+}
+
+.icon{
+    cursor:pointer;
+    font-size:3rem;
+    padding:10px;
+
+}
+
+
+@media screen and (min-width:992px){
+    .icon{
+        font-size:5rem;}
+
+}
+
+.fa-html5:hover{
+    color:orange;
+}
+.fa-css3-alt:hover{
+    color:blue;
+}
+.fa-js:hover{
+    color:yellow;
+}
+.fa-node-js:hover{
+    color:green;
+}
+.icon-mongodb:hover{
+    color:#56a74c;
+}
+.fa-react:hover{
+    color:#6fd7f3;
+}
+.icon-c:hover{
+    color:#035697;
+}
+.icon-cplusplus:hover{
+    color:#035697;
+}
+.fa-docker:hover{
+    color:#2391e6;
+}
+.icon-jquery:hover{
+    color:#0868ab;
+}
+.fa-bootstrap:hover{
+    color:#533b78;
+}
+.fa-python:hover{
+    background: linear-gradient(to top right,#fed140,#3870a1 50%, #fed140 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* 3775a8 */
+
+.fa-linux:hover{
+    color:#f7c700;
+}
+.fa-ubuntu:hover{
+    color:#d64613;
+}
+
+.fa-git-alt:hover{
+    color:#e84e31;
+}

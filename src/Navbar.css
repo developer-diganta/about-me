@@ -4,6 +4,10 @@
         padding-top: 2%;
     }
 
+    .nab-bgg{
+        background-color:white ;
+    }
+
     .navbar-text{
         color:#66FCF1;
         font-family: 'Permanent Marker', cursive;
